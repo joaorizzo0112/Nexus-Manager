@@ -1,0 +1,24 @@
+# Ignorar arquivos do sistema
+__pycache__/
+*.py[cod]
+
+# Ignorar o Ambiente Virtual
+venv_nexus/
+venv/
+.env
+
+# Ignorar banco de dados (Segurança: nunca suba dados reais!)
+*.db
+inventario.db
+
+# Ignorar arquivos gerados pelo PyInstaller
+build/
+dist/
+*.spec
+
+# Ignorar QR Codes gerados (pois são criados dinamicamente)
+qrcodes/
+
+# Ignorar arquivos do VSCode/Editores
+.vscode/
+.idea/
