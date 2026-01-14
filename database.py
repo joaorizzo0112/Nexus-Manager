@@ -5,8 +5,7 @@ def init_db():
     try:
         conn = sqlite3.connect("inventario.db")
         cursor = conn.cursor()
-        
-        # Tabela de Equipamentos
+
         cursor.execute("""
         CREATE TABLE IF NOT EXISTS equipamentos (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -15,8 +14,7 @@ def init_db():
             status TEXT DEFAULT 'Disponível'
         )
         """)
-        
-        # Tabela de Movimentações (Histórico para auditoria)
+
         cursor.execute("""
         CREATE TABLE IF NOT EXISTS movimentacoes (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
