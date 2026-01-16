@@ -43,7 +43,7 @@ O projeto foi construído utilizando as melhores bibliotecas do ecossistema Pyth
 Você não precisa ter o Python instalado para usar o Nexus Manager.
 
 1.  Acesse a aba **[Releases](../../releases)** deste repositório.
-2.  Baixe o arquivo `Nexus.exe` da versão mais recente (v31.0).
+2.  Baixe o arquivo `Nexus.exe` da versão mais recente (v1.0).
 3.  Coloque o arquivo numa pasta de sua preferência.
 4.  Execute o `Nexus.exe`.
     * *Nota: O sistema criará automaticamente o banco de dados e a pasta de imagens na primeira execução.*
